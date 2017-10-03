@@ -1,0 +1,26 @@
+<! DOCTYPE HTML>
+<html ng-app ='myinspiration'>
+
+<head>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href= "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet"  type="text/css"href ="assets/inspiration.css" >
+<script src ="assets/angular.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/inspiration.js"></script>
+
+    <title>Inspiration</title>
+</head>
+<body>  
+<div class="wrapper" ng-controller = 'myinspirationController'>
+  <h1>Hello</h1>
+  <p>{{myWelcome}}</p>
+    <br>
+    <br>
+    <input type="button" class = "button" ng-click='search()' value = 'MORE'>
+</div>
+    
+</body>
+</html>
